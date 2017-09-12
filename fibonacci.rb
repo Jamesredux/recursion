@@ -44,7 +44,7 @@ end
 
 #tests
 
-fibs(0)
+fibs(0) =>
 fibs(1)
 fibs(2)
 fibs(5)
@@ -58,3 +58,18 @@ puts fibs_recur_list(0)
 puts fibs_recur_list(1)
 puts fibs_recur_list(2)
 puts fibs_recur_list(5)
+
+#above tests returned
+
+#[0]
+#[0, 1]
+#[0, 1, 1]
+#[0, 1, 1, 2, 3, 5]
+#0
+#1
+#1
+#5
+#[0]
+#[0, 1]
+#[0, 1, 1]
+#[0, 1, 1, 2, 3, 5]
