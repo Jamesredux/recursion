@@ -44,7 +44,7 @@ end
 
 #tests
 
-fibs(0) =>
+fibs(0)
 fibs(1)
 fibs(2)
 fibs(5)
@@ -54,7 +54,7 @@ puts fibs_recur(1)
 puts fibs_recur(2)
 puts fibs_recur(5)
 
-puts fibs_recur_list(0)
+puts fibs_recur_list(0) 
 puts fibs_recur_list(1)
 puts fibs_recur_list(2)
 puts fibs_recur_list(5)
